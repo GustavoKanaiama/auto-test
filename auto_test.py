@@ -54,3 +54,5 @@ def teste_python():
         assert int(list_test[i][1]) == fact(int(list_test[i][0]))
         assert int(list_test[i][2]) == fib(int(list_test[i][0]))
 
+    
+
