@@ -1,3 +1,4 @@
+import pytest
 
 def fact(x):
     x = int(x)
@@ -44,7 +45,7 @@ def get_list_by_data(path_and_name):
     return list_pri
 
 
-def teste_python():
+def test_python2():
     
     #list_test <-> list_pri
     list_test = get_list_by_data('./teste2.data')
