@@ -1,0 +1,1 @@
+## Um repositório para testar a automação de testes da plataforma Github.
