@@ -42,13 +42,13 @@ for i in list_read:
 
     acum += 1
 
-"""
 def teste_python(list_test):
 
     for i in range(1, len(list_test)): # pula o cabeçalho
 
-        assert list_test[i][1] == fact(int(list_test[i][0]))
-        assert list_test[i][2] == fib(int(list_test[i][0]))
 
-"""
-print(list_pri)
+        assert int(list_test[i][1]) == fact(int(list_test[i][0]))
+        assert int(list_test[i][2]) == fib(int(list_test[i][0]))
+
+
+teste_python(list_pri)
