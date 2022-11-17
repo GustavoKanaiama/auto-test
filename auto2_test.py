@@ -45,22 +45,11 @@ def get_list_by_data(path_and_name):
     return list_pri
 
 
-def test_python1():
+def test_python2():
 
-    list_test = get_list_by_data('./teste.data')
-
-    for i in range(1, len(list_test)): # pula o cabeçalho
-
-        assert int(list_test[i][1]) == fact(int(list_test[i][0]))
-        assert int(list_test[i][2]) == fib(int(list_test[i][0]))
-"""
     list_test = get_list_by_data('./teste2.data')
 
     for i in range(1, len(list_test)): # pula o cabeçalho
 
         assert int(list_test[i][1]) == fact(int(list_test[i][0]))
         assert int(list_test[i][2]) == fib(int(list_test[i][0]))
-
-    
-
-"""
